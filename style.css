@@ -1,0 +1,67 @@
+body {
+margin:0% ;
+padding: 0%;
+background: rgb(31, 29, 71);
+}
+.signup-form {
+    width: 413px ;
+    height: 413px;
+    padding: 23px;
+    text-align: center;
+    background: url(y.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+overflow: hidden;   
+border-radius: 29px; 
+}
+.signup-form h1{
+    color: rgba(19, 211, 13, 0.547);
+margin-top: 101px;
+font-size: 41px;
+}
+.signup-form input{
+display: block;
+text-align: center;
+width: 97%;
+padding: 0 17px;
+height: 43px;
+border: none;
+box-sizing: border-box;
+border-color: aquamarine;
+}
+.txt{
+    margin: 11px 0;
+    border-radius: 7px;
+}
+.signup-btn{
+margin-top: 37px;
+margin-bottom: 7px;
+background: rgb(71, 71, 97);
+border-radius: 71px;
+color: rgb(29, 139, 203);
+cursor: pointer;
+transition: 0.8s;
+display: block;
+font-size: 23px;
+}
+.signup-btn:hover{
+transform: scale(0.97);
+background: rgb(107, 127, 79);
+color: crimson;
+}
+.signup-form a{
+text-decoration: none;
+color: rgb(2, 23, 19);
+font-size: 19px;
+transition: 0.7s;
+display: block;
+text-align: center;
+}
+.signup-form a:hover{
+color:teal;
+
+
+
+}
